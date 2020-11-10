@@ -4,14 +4,14 @@ const inquirer = require("inquirer");
 var connection = mysql.createConnection({
     host: "localhost",
 
-    // Your port; if not 3306
+    // the port; if not 3306
     port: 3306,
 
-    // Your username
+    // username
     user: "root",
 
-    // Your password
-    password: "123456789",
+    // put in your password
+    password: "12345",
     database: "employee_tracker_db"
 });
 
